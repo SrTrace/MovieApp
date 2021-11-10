@@ -6,7 +6,6 @@ import "./MovieListing.scss";
 
 const MovieListing = () => {
     const movies = useSelector(getAllMovies);
-    // let renderMovies;
 
     let renderMovies = movies.Response === "True" ? (
         movies.Search.map((movie, index) => (
