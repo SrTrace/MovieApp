@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAEA,WAAY;EACV,MAAM,EAAE,MAAM;EACd,cAAG;IACD,KAAK,ECFQ,OAAO;IDGpB,aAAa,EAAE,IAAI;IACnB,WAAW,EAAE,GAAG;;AAIpB,gBAAiB;EACf,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,qCAAqC;EAC5D,QAAQ,EAAE,IAAI",
+"sources": ["MovieListing.scss","../../common/colors.scss"],
 "names": [],
 "file": "MovieListing.css"
 }

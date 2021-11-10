@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAEA,UAAU;EACR,UAAU,ECFM,OAAO;EDGvB,MAAM,EAAE,OAAO;;AAGjB,SAAU;EACR,MAAM,EAAE,KAAK;EAEb,aAAI;IACF,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI;;AAIhB,YAAa;EACX,OAAO,EAAE,IAAI;;AAGf,UAAW;EACT,KAAK,ECnBQ,IAAI;EDoBjB,aAAG;IACD,SAAS,EAAE,IAAI;IACf,WAAW,EAAE,GAAG;IAChB,aAAa,EAAE,IAAI",
+"sources": ["MovieCard.scss","../../common/colors.scss"],
 "names": [],
 "file": "MovieCard.css"
 }
