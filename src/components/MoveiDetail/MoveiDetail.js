@@ -1,7 +1,11 @@
 import React, {useEffect} from 'react';
 import {useParams} from 'react-router';
 import {useDispatch, useSelector} from "react-redux";
-import {fetchAsyncMovieOrShowDetail, getSelectedMovieOrShow} from "../../features/movies/movieSlice";
+import {
+    fetchAsyncMovieOrShowDetail,
+    getSelectedMovieOrShow,
+    removeSelectedMovieOrShow
+} from "../../features/movies/movieSlice";
 import "./MoveiDetail.scss";
 
 const MoveiDetail = () => {
@@ -11,6 +15,9 @@ const MoveiDetail = () => {
     // console.log(data);
     useEffect(() => {
         dispatch(fetchAsyncMovieOrShowDetail(imdbID));
+        return ()=> {
+            dispatch(removeSelectedMovieOrShow());
+        }
     }, [dispatch, imdbID]);
 
     return (
@@ -24,13 +31,13 @@ const MoveiDetail = () => {
                         IMDB Rating <i className="fa fa-star"/> : {data.imdbRating}
                     </span>
                     <span>
-                        IMDB Votes <i className="fa fa-thumbs-up"></i> : {data.imdbVotes}
+                        IMDB Votes <i className="fa fa-thumbs-up"/> : {data.imdbVotes}
                     </span>
                     <span>
-                        Runtime <i className="fa fa-film"></i> : {data.Runtime}
+                        Runtime <i className="fa fa-film"/> : {data.Runtime}
                     </span>
                     <span>
-                        Year <i className="fa fa-calendar"></i> : {data.Year}
+                        Year <i className="fa fa-calendar"/> : {data.Year}
                     </span>
                 </div>
                 <div className="movie-plot">{data.Plot}</div>
