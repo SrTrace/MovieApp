@@ -1,6 +1,10 @@
 .card-item {
   background: #1a242f;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: all 0.3s; }
+  .card-item:hover {
+    transform: scale(1.1);
+    transition: all 0.3s; }
 
 .card-top {
   height: 300px; }
