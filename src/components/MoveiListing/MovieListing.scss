@@ -9,8 +9,9 @@
   }
 }
 
-.movie-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  grid-gap: 15px;
-}
+// this styles don't need because we add Slider style in component
+//.movie-container {
+//  display: grid;
+//  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+//  grid-gap: 15px;
+//}

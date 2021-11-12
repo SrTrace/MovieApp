@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAEA,uBAAwB;EACtB,MAAM,EAAE,MAAM;EACd,6BAAG;IACD,KAAK,ECFQ,OAAO;IDGpB,aAAa,EAAE,IAAI;IACnB,WAAW,EAAE,GAAG;;AAIpB,gBAAiB;EACf,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,qCAAqC;EAC5D,QAAQ,EAAE,IAAI",
+"mappings": "AAEA,uBAAwB;EACtB,MAAM,EAAE,MAAM;EACd,6BAAG;IACD,KAAK,ECFQ,OAAO;IDGpB,aAAa,EAAE,IAAI;IACnB,WAAW,EAAE,GAAG",
 "sources": ["MovieListing.scss","../../common/colors.scss"],
 "names": [],
 "file": "MovieListing.css"
