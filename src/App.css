@@ -5,7 +5,8 @@
   font-family: "Open Sans", sans-serif; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #fff; }
 
 body {
   background: #0f171e; }

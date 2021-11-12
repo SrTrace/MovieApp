@@ -15,4 +15,24 @@
   width: 38px;
   height: 38px; }
 
+.search-bar {
+  width: 50%;
+  display: flex;
+  justify-content: center; }
+  .search-bar form {
+    display: flex;
+    justify-content: center;
+    width: 70%; }
+    .search-bar form button {
+      padding: 0 8px;
+      font-size: 20px;
+      cursor: pointer;
+      height: 38px; }
+  .search-bar input {
+    font-size: 18px;
+    width: 100%;
+    height: 38px;
+    padding: 5px 5px 5px 10px;
+    outline: none; }
+
 /*# sourceMappingURL=Header.css.map */
