@@ -10,7 +10,6 @@ const Home = () => {
     const showText = "Friends";
 
     useEffect(() => {
-        console.log(!!dispatch);
         dispatch(fetchAsyncMovies(movieText));
         dispatch(fetchAsyncShows(showText));
     }, [dispatch]);
