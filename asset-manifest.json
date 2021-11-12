@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/CryptoApp/static/css/main.bf2dcc11.chunk.css",
-    "main.js": "/CryptoApp/static/js/main.d4ed2b56.chunk.js",
-    "main.js.map": "/CryptoApp/static/js/main.d4ed2b56.chunk.js.map",
-    "runtime-main.js": "/CryptoApp/static/js/runtime-main.d16c7018.js",
-    "runtime-main.js.map": "/CryptoApp/static/js/runtime-main.d16c7018.js.map",
-    "static/js/2.f7b5a16c.chunk.js": "/CryptoApp/static/js/2.f7b5a16c.chunk.js",
-    "static/js/2.f7b5a16c.chunk.js.map": "/CryptoApp/static/js/2.f7b5a16c.chunk.js.map",
-    "index.html": "/CryptoApp/index.html",
-    "static/css/main.bf2dcc11.chunk.css.map": "/CryptoApp/static/css/main.bf2dcc11.chunk.css.map",
-    "static/js/2.f7b5a16c.chunk.js.LICENSE.txt": "/CryptoApp/static/js/2.f7b5a16c.chunk.js.LICENSE.txt",
-    "static/media/user.109eb920.png": "/CryptoApp/static/media/user.109eb920.png"
+    "main.css": "/MovieApp/static/css/main.bf2dcc11.chunk.css",
+    "main.js": "/MovieApp/static/js/main.d4ed2b56.chunk.js",
+    "main.js.map": "/MovieApp/static/js/main.d4ed2b56.chunk.js.map",
+    "runtime-main.js": "/MovieApp/static/js/runtime-main.46e8edb2.js",
+    "runtime-main.js.map": "/MovieApp/static/js/runtime-main.46e8edb2.js.map",
+    "static/js/2.f7b5a16c.chunk.js": "/MovieApp/static/js/2.f7b5a16c.chunk.js",
+    "static/js/2.f7b5a16c.chunk.js.map": "/MovieApp/static/js/2.f7b5a16c.chunk.js.map",
+    "index.html": "/MovieApp/index.html",
+    "static/css/main.bf2dcc11.chunk.css.map": "/MovieApp/static/css/main.bf2dcc11.chunk.css.map",
+    "static/js/2.f7b5a16c.chunk.js.LICENSE.txt": "/MovieApp/static/js/2.f7b5a16c.chunk.js.LICENSE.txt",
+    "static/media/user.109eb920.png": "/MovieApp/static/media/user.109eb920.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d16c7018.js",
+    "static/js/runtime-main.46e8edb2.js",
     "static/js/2.f7b5a16c.chunk.js",
     "static/css/main.bf2dcc11.chunk.css",
     "static/js/main.d4ed2b56.chunk.js"
